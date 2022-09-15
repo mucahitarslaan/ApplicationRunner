@@ -1,4 +1,3 @@
 ##Spring Boot
 
-Spring Boot Examples
-Anotation Usage Details
+Application Properties Dosyasi ile Value Annotation Baglantisi
