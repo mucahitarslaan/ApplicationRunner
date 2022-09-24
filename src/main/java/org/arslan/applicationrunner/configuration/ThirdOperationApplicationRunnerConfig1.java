@@ -14,7 +14,7 @@ public class ThirdOperationApplicationRunnerConfig1
         this.thirdOperation = thirdOperation;
     }
 
-    @Bean("config1")
+    @Bean
     public ApplicationRunner runThirdOperation()
     {
         return args -> thirdOperation.doOperation();
