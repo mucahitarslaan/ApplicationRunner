@@ -1,9 +1,7 @@
-package org.arslan.application.component;
+package org.arslan.applicationrunner.component;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-
-import javax.annotation.PostConstruct;
 
 @Component
 public class SecondOperation {
@@ -14,7 +12,6 @@ public class SecondOperation {
     @Value("${operation.second.prefix}")
     private String m_sprefix;
 
-    @PostConstruct
     public void doOperation()
     {
         System.out.printf("%s: %d + %d = %d%n", m_sprefix, m_sop1, m_sop2, m_sop1 + m_sop2);

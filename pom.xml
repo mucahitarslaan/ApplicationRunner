@@ -10,9 +10,9 @@
 	</parent>
 
 	<groupId>org.arslan</groupId>
-	<artifactId>ValueAnnotation</artifactId>
+	<artifactId>ApplicationRunner</artifactId>
 	<version>1.0.0</version>
-	<name>ValueAnnotation</name>
+	<name>ApplicationRunner</name>
 
 	<properties>
 		<java.version>11</java.version>
